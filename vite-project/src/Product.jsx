@@ -1,13 +1,21 @@
+import "./Product.css"
 
-function Product({name,price,isavailable}){
+function Product(product){
+
+    const titlestyle={
+        fontsize: "30px",
+        fontweight: "bold",
+        color:"blue"
+    }
     
     return(
-        <div>
+        <div className="container">
             
-            <p>product name{name}
+            <p className="name">product name:{product.name}
             </p>
-            <p>product price{price}</p>
-            <p>{isavailable==true?"it is available":"not available"}</p>
+            <p className="price">product price:{product.price}</p>
+            <p>{product.isavailable==true?<p className="stock">"in stock"</p>:<p className="stock2">"out of stock"</p>}</p>
+        
         </div>
     )
 }

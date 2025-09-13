@@ -1,0 +1,42 @@
+.course{
+    font-size: 15px;
+    font-weight:bold;
+    color:black;
+
+}
+.rollno{
+    font-size:15px;
+    font-weight:bold;
+    color:black;
+
+}
+.blood{
+    font-size:15px;
+    font-weight:bold;
+    color:black;
+
+    
+}
+
+.dob{
+    font-size:15px;
+    font-weight:bold;
+    color:black;
+
+}
+.container{
+    border-radius: 200;
+    border:2px solid black;
+    margin:20px;
+}
+
+.ima{
+    display:flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+.name{
+    font-size:15px;
+    font-weight:bold;
+    color:black;
+}
